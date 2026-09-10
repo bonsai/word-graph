@@ -1,0 +1,11 @@
+[package]
+name = "word-graph"
+version = "0.1.0"
+edition = "2021"
+description = "Loosely coupled common graph foundation for words, phonetics, semantics and domain edges"
+license = "MIT"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
